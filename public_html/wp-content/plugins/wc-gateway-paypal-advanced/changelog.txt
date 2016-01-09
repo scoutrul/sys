@@ -1,0 +1,4 @@
+*** Paypal Advanced Changelog ***
+
+2013.02.03 - version 1.0.0
+ * First Release

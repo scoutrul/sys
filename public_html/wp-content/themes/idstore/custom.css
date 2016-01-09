@@ -1,0 +1,193 @@
+* {
+	position: relative;
+}
+
+
+/* header */
+
+
+
+.header-area,
+.header-bg,
+.header {
+	background-color: #030303 !important;
+	padding: 0 !important;
+}
+
+
+.header {
+	padding: 10px 0;
+	margin: auto;
+}
+.container .header-area {
+	padding: 0 !important;
+}
+
+.header-overlapped .header-type-variant6 {
+	background: none;
+}
+
+/* cart */
+.header .span3 {
+	padding: 20px 0;
+	min-height: 100% !important;
+	z-index: 1000;
+}
+#top-cart {
+	padding: 9px 15px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA0BJREFUeNq8mFtIVEEYx8+uu2qZbZBldg8RIaW7kQ/doB4qKEyKoEiKeqwgesmHiKCXbg/RQ9BDCEGPRbSEUEIXCorQII3CLuoK6ppLCa66227/E/8D0zhzzpwF94MfZ5yZM/Ptd77LjIFsNhu2LKseFFv/y1eSH4EiLSCTnSqDoApY+SAIXTaAgELH+aAxXwYJQJtaPJvADPZFwBG2X4Ct+VJE1f8FVIEkWAbi061ISNP/lIrYVjoP3k2XIcA4aNNZZA94bOVPWoOagddgJI+KrNB9mgR4Cfbx73ugSzP3LOgGjxRjJ0AKtCjGasBhtt+6xfZJIadcdJnXCa5rxlrBA83YKWH900EXcz0Dk2zb+aRAM8/uL3IJhrBmbLPQbndT5BvoYHslqNYlZ5DJYayGz5/gc8jDiZ6AjcBWeD8Y0vzqmaBMMVZIReSxCrBcqGlxXfg6sgm8YTtNxyvQbJZWvO98lpTUnxGK7F1w3Msi7eAHtbet0qzIslfBR01kNNPPrkn9e8FBtjuc6uvFHcG7dyvGu8ANl6h5qOi/Lay5zam+XhIV2ocU40F+Hl3UqKxex+cY65qRIq/AL7a30zFN5Y/CP8pBJdvfwYBb0RNlmCl/F1gM1lE50fEmJOedA+bxSGFHyAX62RJW8wjndjnhHTL8ZVEqYksDc8wCsBCUgh0sA0u5cRk3cw5ctZp133udR2SpZGQU09TjVMCvTLKO2ZHXCc6AQT8WGaP5i5kbwi7zRpj4+kGvQIz+MEyfy5ocjGQ5QFPbSauPC8a4QQ9xNoorHDTnE5os9XzeB0dd5pXy0D2bzCIltGYhIzX1r/Rb1ge/iiT43AKu8DOVMzLmMkoiwqZFBmsOMZKSfpzVrpRt/LWm+SNJn0nSuSdoiQwN8Byc41xjRSzmAPtEtZ5JLS4wTCdN0BFHBSUcBdK5XCdUUkKLDHITvxLhp+in4lOunCY0ghiL1ABo8nmlbAB9wlX2mDzHZJFFYFS6F6d83IsrwG/p/TSolu++XrKa0SCHfZ3hJ1mlyMIF8vsmivS4nGlNpNfofUPzXpZMexMEfPjIJelfH7fk9/1EzU6whqU7mkPU2BV6Lfikus7+FWAAbp9NM2tp/6wAAAAASUVORK5CYII=');
+	background-position: 10px 50%;
+	background-repeat: no-repeat;
+	background-size: 12px;
+	padding-left: 30px;
+}
+#top-cart a {
+	color: #FFF;
+}
+/* /cart /*
+
+/*logo*/
+.header .span5 {
+	width: 50px;
+	margin:0;
+	padding: 10px 0;
+	margin-top: -5px;
+}
+
+
+.header ~ .row {
+	position: absolute;
+	top: 27px;
+	left: 80px;
+}
+
+.header .search_text {
+	margin: 0;
+	position: absolute;
+	width: 480px;
+	left: 30px;
+	top: 18px;
+}
+
+
+
+.breadcrumbs {
+	padding:0;
+}
+
+/* adaptive fix */
+@media (max-width: 979px) {
+
+	#main-nav.span12 {
+	    right: 0;
+    	position: absolute;
+	}
+
+	.header {
+		padding: 0 !important;
+	}
+
+	.header ~ .row {
+		right: 0px;
+		top: 50%;
+	}
+
+	.header-type-default .header {
+		margin:0;
+	}
+
+	.span4 {
+	    display: none;
+	}
+	
+	#top-cart {
+		background: transparent;
+	}
+	#top-cart a {
+		color: #000;
+	}
+	.hidden-desktop {
+		background-color: #CCC
+	}
+	.hidden-desktop .container {
+		background-color: transparent;
+	}
+}
+
+
+
+/* menu top */
+.menu > ul > li {
+	margin: 0;
+}
+#menu-menyu-1 {
+	padding: 0;
+}
+/* /header */
+
+
+
+
+/* footer */
+.menu > ul > li > a {
+	color: #FFF;
+	text-shadow: none;
+}
+
+.menu {
+	padding-left: 20px;
+}
+
+.span3 {
+	min-height: 180px !important;
+	text-align: left;
+}
+
+.tweets-block .footer_title {
+	padding-bottom: 15px !important
+}
+
+.woocommerce-product-search input[type="submit"] {
+	padding: 0 20px;
+}
+
+.search-field {
+	width: 100%;
+}
+
+.screen-reader-text {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+
+.cat-item a,
+.menu-item a {
+	color: #AAA !important;
+}
+
+/* /footer */
+
+
+/* shop greed */
+#products-grid {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+
+.products_grid .product-grid {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+

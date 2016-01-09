@@ -1,0 +1,212 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="0">etheme_framework</custom-type>
+        <custom-type translate="1">etheme_portfolio</custom-type>
+        <custom-type translate="1">testimonial</custom-type>
+    </custom-types>  
+    <taxonomies>
+        <taxonomy translate="1">categories</taxonomy>
+        <taxonomy translate="1">testimonial-category</taxonomy>
+        <taxonomy translate="1">tag</taxonomy>
+    </taxonomies>    
+        <!-- Start adding the keys for translating the theme options.
+        Reference: https://wpml.org/forums/topic/cannot-translate-theme-options-2/ -->
+        <admin-texts>
+                <key name="option_tree">
+                        <key name="main_layout" />
+                        <key name="to_top" />
+                        <key name="copyright" />
+                        <key name="menu_type" />
+                        <key name="main_color_scheme" />
+                        <key name="activecol" />
+                        <key name="activehovercol" />
+                        <key name="footer_bg" />
+                        <key name="background_img">
+                                <key name="background-color" />
+                                <key name="background-repeat" />
+                                <key name="background-attachment" />
+                                <key name="background-position" />
+                                <key name="background-image" />
+                        </key>
+                        <key name="background_cover" />
+                        <key name="sfont">
+                                <key name="font-color" />
+                                <key name="font-family" />
+                                <key name="google-font" />
+                                <key name="font-size" />
+                                <key name="font-style" />
+                                <key name="font-variant" />
+                                <key name="font-weight" />
+                                <key name="letter-spacing" />
+                                <key name="line-height" />
+                                <key name="text-decoration" />
+                                <key name="text-transform" />
+                        </key>
+                        <key name="h1">
+                                <key name="font-color" />
+                                <key name="font-family" />
+                                <key name="google-font" />
+                                <key name="font-size" />
+                                <key name="font-style" />
+                                <key name="font-variant" />
+                                <key name="font-weight" />
+                                <key name="letter-spacing" />
+                                <key name="line-height" />
+                                <key name="text-decoration" />
+                                <key name="text-transform" />
+                        </key>
+                        <key name="h2">
+                                <key name="font-color" />
+                                <key name="font-family" />
+                                <key name="google-font" />
+                                <key name="font-size" />
+                                <key name="font-style" />
+                                <key name="font-variant" />
+                                <key name="font-weight" />
+                                <key name="letter-spacing" />
+                                <key name="line-height" />
+                                <key name="text-decoration" />
+                                <key name="text-transform" />
+                        </key>
+                        <key name="h3">
+                                <key name="font-color" />
+                                <key name="font-family" />
+                                <key name="google-font" />
+                                <key name="font-size" />
+                                <key name="font-style" />
+                                <key name="font-variant" />
+                                <key name="font-weight" />
+                                <key name="letter-spacing" />
+                                <key name="line-height" />
+                                <key name="text-decoration" />
+                                <key name="text-transform" />
+                        </key>
+                        <key name="h4">
+                                <key name="font-color" />
+                                <key name="font-family" />
+                                <key name="google-font" />
+                                <key name="font-size" />
+                                <key name="font-style" />
+                                <key name="font-variant" />
+                                <key name="font-weight" />
+                                <key name="letter-spacing" />
+                                <key name="line-height" />
+                                <key name="text-decoration" />
+                                <key name="text-transform" />
+                        </key>
+                        <key name="h5">
+                                <key name="font-color" />
+                                <key name="font-family" />
+                                <key name="google-font" />
+                                <key name="font-size" />
+                                <key name="font-style" />
+                                <key name="font-variant" />
+                                <key name="font-weight" />
+                                <key name="letter-spacing" />
+                                <key name="line-height" />
+                                <key name="text-decoration" />
+                                <key name="text-transform" />
+                        </key>
+                        <key name="h6">
+                                <key name="font-color" />
+                                <key name="font-family" />
+                                <key name="google-font" />
+                                <key name="font-size" />
+                                <key name="font-style" />
+                                <key name="font-variant" />
+                                <key name="font-weight" />
+                                <key name="letter-spacing" />
+                                <key name="line-height" />
+                                <key name="text-decoration" />
+                                <key name="text-transform" />
+                        </key>
+                        <key name="header_type" />
+                        <key name="logo" />
+                        <key name="favicon" />
+                        <key name="cart_widget">
+                                <key name="0" />
+                        </key>
+                        <key name="search_form">
+                                <key name="0" />
+                        </key>
+                        <key name="header_phone" />
+                        <key name="just_catalog">
+                                <key name="0" />
+                        </key>
+                        <key name="ajax_filter">
+                                <key name="0" />
+                        </key>
+                        <key name="checkout_accordion">
+                                <key name="0" />
+                        </key>
+                        <key name="cats_accordion">
+                                <key name="0" />
+                        </key>
+                        <key name="touch_carusels">
+                                <key name="0" />
+                        </key>
+                        <key name="new_icon">
+                                <key name="0" />
+                        </key>
+                        <key name="new_icon_width" />
+                        <key name="new_icon_height" />
+                        <key name="new_icon_url" />
+                        <key name="sale_icon_width" />
+                        <key name="sale_icon_height" />
+                        <key name="sale_icon_url" />
+                        <key name="product_bage_banner" />
+                        <key name="empty_cart_content" />
+                        <key name="empty_category_content" />
+                        <key name="view_mode" />
+                        <key name="prodcuts_per_row" />
+                        <key name="grid_sidebar" />
+                        <key name="product_img_hover" />
+                        <key name="product_page_image_width" />
+                        <key name="product_page_image_height" />
+                        <key name="product_page_productname">
+                                <key name="0" />
+                        </key>
+                        <key name="product_page_price">
+                                <key name="0" />
+                        </key>
+                        <key name="product_page_addtocart">
+                                <key name="0" />
+                        </key>
+                        <key name="single_product_layout" />
+                        <key name="thumbs_count" />
+                        <key name="zoom_efect" />
+                        <key name="single_product_thumb_width" />
+                        <key name="single_product_thumb_height" />
+                        <key name="right_banners" />
+                        <key name="related_products">
+                                <key name="0" />
+                        </key>
+                        <key name="size_guide_img" />
+                        <key name="size_guide_img_mobile" />
+                        <key name="custom_tab_title" />
+                        <key name="custom_tab" />
+                        <key name="blog_layout" />
+                        <key name="blog_sidebar" />
+                        <key name="blog_sidebar_responsive" />
+                        <key name="portfolio_count" />
+                        <key name="portfolio_columns" />
+                        <key name="slider_nav_type" />
+                        <key name="contacts_email" />
+                        <key name="google_map" />
+                        <key name="contacts_custom_html" />
+                        <key name="contacts_info" />
+                        <key name="responsive">
+                                <key name="0" />
+                        </key>
+                        <key name="responsive_from" />
+                        <key name="loader">
+                                <key name="0" />
+                        </key>
+                        <key name="banner_mask" />
+                        <key name="custom_css">
+                                <key name="0" />
+                        </key>
+                        <key name="new_options" />
+                </key>
+        </admin-texts>
+</wpml-config>
